@@ -291,9 +291,10 @@ input{
     color: white;
 }
 
-.hide {
+.socialbuttons {
   display: none;
 }
+
 
 
 
@@ -395,17 +396,8 @@ input{
     input:checked + .slide-container .nav label { display: block; }
 
     input:checked + .slide-container-checked .nav label { display: block; }
-}
 
 
-p.more {
-    display: flex;
-    justify-content: flex-end;
-    margin: 1em;
-    color: green;  
-    font-size: 1em;
-    font-weight: 500;
-}
 
 div.socialbuttons {
   display: flex;
@@ -418,6 +410,6 @@ div.socialbuttons a {
   padding: 0 0 0 1em;       
 }
   
-
+}
 
 
