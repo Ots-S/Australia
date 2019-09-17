@@ -291,6 +291,11 @@ input{
     color: white;
 }
 
+.hide {
+  display: none;
+}
+
+
 
 @media only screen and (min-width: 1025px){
 
@@ -397,34 +402,22 @@ p.more {
     display: flex;
     justify-content: flex-end;
     margin: 1em;
-    
-
-  color: green;  
-  font-size: 1em;
-  font-weight: 500;
+    color: green;  
+    font-size: 1em;
+    font-weight: 500;
 }
 
 div.socialbuttons {
-  display: none;
-}
-
-
-@media screen and (min-width: 800px) {
-
-  div.socialbuttons {
-    display: flex;
-    flex-direction: flex-end;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  flex-direction: flex-end;
+  justify-content: space-between;
+  align-items: center;
  
-  }
-  div.socialbuttons a {
-    padding: 0 0 0 1em;
-    
-       
-  }
+}
+div.socialbuttons a {
+  padding: 0 0 0 1em;       
+}
   
 
-  
-}
+
 
