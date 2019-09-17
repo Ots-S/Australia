@@ -10,6 +10,7 @@ body {
 
 h1 {
     font-family: 'Chilanka', cursive;  
+    color: green;
 }
 
 /* Banniere */
@@ -57,13 +58,17 @@ p.more {
 
 #footer {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
     background-color: #FFAD33;
+    padding: 1em;
     
 }
 
 #footer a {
-    color: white;
+  color: green;  
+  font-size: 1em;
+  font-weight: 1em;
 }
 
 /* Partie HEADER Coralie*/
@@ -182,6 +187,7 @@ nav {
     background: #ededed;
     list-style-type: none;
     -webkit-font-smoothing: antialiased;
+    
    
     
     transform-origin: 0% 0%;
