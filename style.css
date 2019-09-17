@@ -71,6 +71,14 @@ p.more {
   font-weight: 1em;
 }
 
+<<<<<<< HEAD
+=======
+
+.facebook {
+  border-left: 1px solid black;
+}
+
+>>>>>>> 22fe1ca5335b54cc35db0e729b128594c5697e58
 /* Partie HEADER Coralie*/
 
 nav {
@@ -225,3 +233,7 @@ nav {
     padding: 0 15px 15px ;
     
   }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 22fe1ca5335b54cc35db0e729b128594c5697e58
