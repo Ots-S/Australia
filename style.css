@@ -26,7 +26,7 @@ h1 {
 
 /* Articles */
 
-section#articles {
+#articles {
     display:block;
 }
 
@@ -86,10 +86,10 @@ input{
     color: white;
 }
 
-@media only screen and (min-width: 961px){
+@media only screen and (min-width: 1025px){
 
-    section#articles {
-        display:block;
+    #articles{
+        height:50vw;
     }
     
     .slides {
