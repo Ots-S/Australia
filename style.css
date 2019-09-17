@@ -8,15 +8,10 @@ body {
 
 /* Menu */
 
-nav {
-    display: flex;
-    background-color: #FFAD33;
-    padding: 1rem;
-    justify-content: center;
-}
 h1 {
     font-family: 'Chilanka', cursive;  
 }
+
 /* Banniere */
 
 .imgprincipal {
@@ -69,4 +64,8 @@ p.more {
 
 #footer a {
     color: white;
+}
+
+a.facebook {
+  border-left: 1px solid black;
 }
