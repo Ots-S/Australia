@@ -62,23 +62,18 @@ p.more {
     align-items: center;
     background-color: #FFAD33;
     padding: 1em;
-    
-}
+  }
 
 #footer a {
   color: green;  
   font-size: 1em;
-  font-weight: 1em;
+  font-weight: 500;
 }
 
-<<<<<<< HEAD
-=======
-
-.facebook {
-  border-left: 1px solid black;
+div.socialbuttons {
+  display: none;
 }
 
->>>>>>> 22fe1ca5335b54cc35db0e729b128594c5697e58
 /* Partie HEADER Coralie*/
 
 nav {
@@ -233,7 +228,23 @@ nav {
     padding: 0 15px 15px ;
     
   }
-<<<<<<< HEAD
-=======
 
->>>>>>> 22fe1ca5335b54cc35db0e729b128594c5697e58
+
+@media screen and (min-width: 800px) {
+
+  div.socialbuttons {
+    display: flex;
+    flex-direction: flex-end;
+    justify-content: space-between;
+    align-items: center;
+ 
+  }
+  div.socialbuttons a {
+    padding: 0 0 0 1em;
+    
+       
+  }
+  
+
+  
+}
