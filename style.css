@@ -8,15 +8,11 @@ body {
 
 /* Menu */
 
-nav {
-    display: flex;
-    background-color: #FFAD33;
-    padding: 1rem;
-    justify-content: center;
-}
 h1 {
     font-family: 'Chilanka', cursive;  
+    color: green;
 }
+
 /* Banniere */
 
 .imgprincipal {
@@ -63,14 +59,26 @@ p.more {
 #footer {
     display: flex;
     justify-content: space-around;
+    align-items: center;
     background-color: #FFAD33;
-    padding: 2rem;
+    padding: 1em;
+    
 }
 
 #footer a {
-    color: white;
+  color: green;  
+  font-size: 1em;
+  font-weight: 1em;
 }
 
+<<<<<<< HEAD
+=======
+
+.facebook {
+  border-left: 1px solid black;
+}
+
+>>>>>>> 22fe1ca5335b54cc35db0e729b128594c5697e58
 /* Partie HEADER Coralie*/
 
 nav {
@@ -187,6 +195,7 @@ nav {
     background: #ededed;
     list-style-type: none;
     -webkit-font-smoothing: antialiased;
+    
    
     
     transform-origin: 0% 0%;
@@ -224,3 +233,7 @@ nav {
     padding: 0 15px 15px ;
     
   }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 22fe1ca5335b54cc35db0e729b128594c5697e58
