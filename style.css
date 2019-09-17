@@ -186,31 +186,6 @@ input{
     input:checked + .slide-container-checked .nav label { display: block; }
 }
 
-/*
-section#articles {
-    display: flex;
-    flex-direction: column;   
-}
-
-article {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    background-color: rgb(248, 248, 248);
-    margin: 1em;
-    padding: 1em;
-    border-radius: 10px;
-    align-items: center; 
-}
-
-
-    article p {
-    display: block;
-    margin: .5em;
-    text-align: justify;
-    
-}
-*/
 
 p.more {
     display: flex;
