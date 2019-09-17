@@ -44,15 +44,29 @@ h1 {
     display:block;
 }
 
+.slide-card h2{
+    margin-top:-12.5vw;
+    text-align: center;
+    color:white;
+    z-index:5;
+}
+
 .slide-card p{
+    margin-top : 12.5vw;
     text-align:justify;
     display:block;
+}
+
+.slide-card a{
+    text-decoration:none;
+    color:black;
 }
 
 .slide-card:hover {
     -webkit-transform: scale(1.05);
     transform: scale(1.05);
     transition: all .3s ease-in-out;
+    filter:grayscale(100%);
 }
 
 .slide img {
