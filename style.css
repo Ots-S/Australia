@@ -58,11 +58,30 @@ h1 {
     color:black;
 }
 
+.slide-card:hover a{
+    text-decoration:none;
+    color:black;
+}
+
 .slide-card:hover {
     -webkit-transform: scale(1.05);
     transform: scale(1.05);
     transition: all .3s ease-in-out;
+}
+
+.slide-card:hover img{
     filter:grayscale(100%);
+}
+
+.slide-card:hover h2{
+    margin-top:-12.5vw;
+    text-align: center;
+    color:white;
+    z-index:5;
+
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+    transition: all .3s ease-in-out;
 }
 
 .slide img {
@@ -70,6 +89,8 @@ h1 {
     height: 100%;
     border-radius:5%
 }
+
+
 
 .slide-container{
     display:none;
