@@ -21,6 +21,7 @@ nav {
 {
   text-decoration: none;
   color: rgb(0, 92, 0);
+  padding: 1.5px;
   
   transition: color 0.3s ease;
 }
@@ -168,6 +169,7 @@ input {
 }
 
 .listLogo img {
+  margin-top: 15px;
   padding: 5px 5px 2px 5px;
   height: 15px;
   
@@ -383,13 +385,6 @@ p.more {
   font-weight: 500;
 }
 
-div.socialbuttons {
-  display: none;
-}
-
-
-@media screen and (min-width: 800px) {
-
   div.socialbuttons {
     display: flex;
     flex-direction: flex-end;
@@ -404,6 +399,4 @@ div.socialbuttons {
   }
   
 
-  
-}
 
