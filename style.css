@@ -181,17 +181,32 @@ input {
     justify-content: center;
 }*/
 
-h1 {
-    font-family: 'Chilanka', cursive;  
-    color: green;
-}
 
 /* Banniere */
 
+#banniere {
+  text-align: center;
+}
+
+.logo {
+  margin-top: 1em;
+  width: 5em;
+}
+
+h1 {
+  
+  font-family: 'Chilanka', cursive;
+  font-size: 4em;  
+  vertical-align: center;
+}
+
 .imgprincipal {
     max-width:100%;
-    height:auto;
+    height: auto;
+    margin-bottom: 3em;
     }
+
+
 
 /* Articles */
 
@@ -359,6 +374,23 @@ input{
     display:none;
 }
 
+/* SEPARATOR */
+
+section#separator {
+
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3em;
+}
+
+section#separator img {
+    width: 5em;
+}
+
+/* YOUTUBE */
+
+
+
 
 /* MOSAIC */
 
@@ -385,7 +417,8 @@ img.petit {
   }
 
 #footer a {
-
+    text-decoration: none;
+    font-size: 1.2em;
     color: white;
 }
 
@@ -394,7 +427,7 @@ img.petit {
 }
 
 
-
+/* MEDIA QUERIES */
 
 @media only screen and (min-width: 1025px){
 
@@ -503,14 +536,23 @@ img.petit {
     justify-content: space-between;
     align-items: center;
  
-  }
-  div.socialbuttons a {
-    padding: 0 0 0 1em;
-    
-       
-  }
+
+}
   
+div.socialbuttons a {
+  padding: 0 0 0 1em;       
+}
+
+section#youtube {
+  display: flex;
+  justify-content: center;
+}
 
 
+
+/* iframe {
+  width: 100%;
+  
+} */
 
 }
