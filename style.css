@@ -425,17 +425,18 @@ img.petit {
 
   iframe {
     width: 100%;
+    border-radius: 10px;
   }
 
   div.youtubepadding  {
     padding: 1em;
     background-color: whitesmoke;
+    border-radius: 10px;
   }
   div.youtubepadding p {
     text-align: center;
     font-size: 1.5em;
-    margin: 1em;
-    
+    margin: 1em;    
     font-weight: 800;
   }
   
@@ -609,15 +610,13 @@ div.youtubepadding  {
   background-color: whitesmoke;
   border-radius: 10px;
   display: flex;
-  flex-direction: row;
-  
+  flex-direction: row;  
 }
 
 div.youtubepadding p {
   text-align: center;
   font-size: 1.5em;
   margin: 1em;
-  
   font-weight: 800;
   align-self: center;
 }
