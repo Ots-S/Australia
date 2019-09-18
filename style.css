@@ -20,6 +20,7 @@ nav {
 {
   text-decoration: none;
   color: rgb(0, 92, 0);
+  padding: 1.5px;
   
   transition: color 0.3s ease;
 }
@@ -167,6 +168,7 @@ input {
 }
 
 .listLogo img {
+  margin-top: 15px;
   padding: 5px 5px 2px 5px;
   height: 15px;
   
@@ -255,6 +257,88 @@ h1 {
     transition: all .3s ease-in-out;
 }
 
+
+
+/* Formulaire */
+
+.form-style-5{
+	max-width: 70%;
+	margin: 10px auto;
+	padding: 20px;
+	background: #FFCF6F;
+	border-radius: 15px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+.form-style-5 fieldset{
+	border: none;
+}
+.form-style-5 legend {
+	font-size: 1.4em;
+	margin-bottom: 10px;
+}
+.form-style-5 label {
+	display: block;
+	margin-bottom: 8px;
+}
+.form-style-5 input[type="text"],
+.form-style-5 input[type="email"],
+.form-style-5 textarea,
+.form-style-5 select {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	border: none;
+	border-radius: 4px;
+	font-size: 16px;
+	padding: 10px;
+	width: 100%;
+	box-sizing: border-box; 
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box; 
+	background-color: #e8eeef;
+	margin-bottom: 30px;
+}
+.form-style-5 input[type="text"]:focus,
+.form-style-5 input[type="email"]:focus,
+
+
+.form-style-5 select{
+	-webkit-appearance: menulist-button;
+	height:35px;
+}
+.form-style-5 .number {
+	background: #1dcaff;
+	color: #fff;
+	height: 100%;
+	width: 30px;
+	display: inline-block;
+	font-size: 0.8em;
+	margin-right: 2px;
+	line-height: 30px;
+	text-align: center;
+	text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+	border-radius: 15px 15px 15px 0px;
+}
+
+.form-style-5 input[type="submit"],
+.form-style-5 input[type="button"]
+{
+	position: relative;
+	display: block;
+	padding: 19px 39px 18px 39px;
+	color: #FFF;
+	margin: 0 auto;
+	background: #1dcaff;
+	font-size: 18px;
+	text-align: center;
+	font-style: normal;
+	width: 100%;
+	border-radius: 8px;
+	margin-bottom: 10px;
+}
+.form-style-5 input[type="submit"]:hover,
+.form-style-5 input[type="button"]:hover
+{
+	background: #0084b4;
+}
 .slide-card:hover img{
     filter:grayscale(100%);
 }
@@ -321,11 +405,6 @@ img.petit {
   width: 20%;
   margin: 0;
 }
-img.grand {
-  width: 15%;
-  display: inline;
-}
-
 
 /* Footer */
 
@@ -451,13 +530,15 @@ img.grand {
 
 
 
-div.socialbuttons {
-  display: flex;
-  flex-direction: flex-end;
-  justify-content: space-between;
-  align-items: center;
+  div.socialbuttons {
+    display: flex;
+    flex-direction: flex-end;
+    justify-content: space-between;
+    align-items: center;
  
+
 }
+  
 div.socialbuttons a {
   padding: 0 0 0 1em;       
 }
@@ -467,10 +548,11 @@ section#youtube {
   justify-content: center;
 }
 
+
+
 /* iframe {
   width: 100%;
   
 } */
-
 
 }
