@@ -554,6 +554,24 @@ img.petit {
   {
     transform: none;
   }
+  /* YOUTUBE MOBILE */
+
+  iframe {
+    width: 100%;
+  }
+
+  div.youtubepadding  {
+    padding: 1em;
+    background-color: whitesmoke;
+  }
+  div.youtubepadding p {
+    text-align: center;
+    font-size: 1.5em;
+    margin: 1em;
+    
+    font-weight: 800;
+  }
+  
 
 
 }
@@ -704,6 +722,7 @@ nav {
   color: rgb(251, 253, 251);
   padding: 1.5px;
   margin-top:20px;
+  font-size: 1.2em;
   
 }
 
@@ -714,10 +733,27 @@ nav {
   font-style: bold;
 }
 
+iframe {
+  border-radius: 10px;
+  }
 
-/* iframe {
-  width: 100%;
+div.youtubepadding  {
+  padding: 1em 2em 1em 2em;
+  background-color: whitesmoke;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
   
-} */
+}
+
+div.youtubepadding p {
+  text-align: center;
+  font-size: 1.5em;
+  margin: 1em;
+  
+  font-weight: 800;
+  align-self: center;
+}
+
 
 }
