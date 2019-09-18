@@ -509,7 +509,7 @@ img.petit {
   
 #menu {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   list-style-type: none;
   padding: 3px;
