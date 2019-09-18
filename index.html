@@ -14,29 +14,266 @@
 <body>
     <header>
         <nav>
-            <h1>Australia</h1>
+
+            <div id="menuToggle">
+            
+                <input type="checkbox" />
+            
+                <span></span>
+                <span></span>
+                <span></span>
+            
+                <ul id="menu">
+                <a class="nav-cat" href="#"><li>Activities</li></a>
+                <a class="nav-cat" href="#"><li>My advices</li></a>
+                <a class="nav-cat" href="#"><li>Tours Ideas</li></a>
+                <a class="nav-cat" href="#"><li>My beautiful pictures</li></a>
+                <a class="nav-cat" href="Australia" target="_blank"><li>Show me more</li></a>
+                </ul>
+            </div>
+            <div class="logos">
+                <ul class="listLogo">
+                    <li class= "imageLogo"><a><img class="Navlogo" src="img/facebook.png" alt="facebook-logo" width=15px></a></li>
+                    <li class= "imageLogo"><a><img class="Navlogo" src="img/twitter.png" alt="Twitter-logo" width=15px></a></li>
+                    <li class= "imageLogo"><a><img class="Navlogo" src="img/instagram.png" alt="Instagram-logo" width=15px></a></li>
+                    <li class= "imageLogo"><a><img class="Navlogo" src="img/youtube.png" alt="Youtube-logo" width=15px></a></li>
+                </ul>
+            </div>
         </nav>
 
         <section id="banniere">
-            <img class="imgprincipal" src="https://image.shutterstock.com/z/stock-photo-kangaroo-at-lucky-bay-in-the-cape-le-grand-national-park-near-esperance-western-australia-603577589.jpg" alt="banniere">
+            <img class="imgprincipal" src="img/bannniere.jpeg" alt="banniere">
+        </section>
     </header>
     <section id="articles">
-        <article>
-            <img src="https://image.shutterstock.com/image-photo/pinkish-colourful-sunrise-over-sydney-600w-1094901527.jpg" alt="Cities">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
-        </article>
-        <article>
-                <img src="https://image.shutterstock.com/image-photo/pinkish-colourful-sunrise-over-sydney-600w-1094901527.jpg" alt="Cities">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
-        </article>
-        <article>
-                <img src="https://image.shutterstock.com/image-photo/pinkish-colourful-sunrise-over-sydney-600w-1094901527.jpg" alt="Cities">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </article>
-        <p class="more">More articles ...</p>
+        <ul class="slides">
+            <input type="radio" name="radio-btn" id="img-1" checked />
+            <li class="slide-container-checked">
+                <div class="slide">
+                    <div class="slide-card">
+                        <a href="article.html">
+                            <img src="img/cities.jpeg" />
+                            <h2>Cities</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce facilisis egestas lacus, a
+                                elementum ex congue sit amet. Praesent vestibulum, urna ac porttitor tempor, diam nunc sodales
+                                elit, at mattis dui augue nec nibh. Nullam euismod at urna sit amet consequat. Morbi sodales
+                                tincidun</p>
+                        </a>
+                    </div>
+                    <div class="slide-card">
+                        <a href="article.html">
+                            <img src="img/landscape.jpeg" />
+                            <h2>Landscape</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce facilisis egestas lacus, a
+                                elementum ex congue sit amet. Praesent vestibulum, urna ac porttitor tempor, diam nunc sodales
+                                elit, at mattis dui augue nec nibh. Nullam euismod at urna sit amet consequat. Morbi sodales
+                                tincidun</p>
+                        </a>
+                    </div>
+                    <div class="slide-card">
+                        <a href="article.html">
+                            <img src="img/wildlife.jpeg" />
+                            <h2>Wildlife</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce facilisis egestas lacus, a
+                                elementum ex congue sit amet. Praesent vestibulum, urna ac porttitor tempor, diam nunc sodales
+                                elit, at mattis dui augue nec nibh. Nullam euismod at urna sit amet consequat. Morbi sodales
+                                tincidun</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="nav">
+                    <label for="img-6" class="prev">&#x2039;</label>
+                    <label for="img-2" class="next">&#x203a;</label>
+                </div>
+            </li>
+    
+            <input type="radio" name="radio-btn" id="img-2" />
+            <li class="slide-container">
+                <div class="slide">
+                    <div class="slide-card">
+                        <img src="img/landscape.jpeg" />
+                        <h2>Landscape</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce facilisis egestas lacus, a
+                            elementum ex congue sit amet. Praesent vestibulum, urna ac porttitor tempor, diam nunc sodales
+                            elit, at mattis dui augue nec nibh. Nullam euismod at urna sit amet consequat. Morbi sodales
+                            tincidun</p>
+                    </div>
+                    <div class="slide-card">
+                        <img src="img/wildlife.jpeg" />
+                        <h2>Wildlife</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce facilisis egestas lacus, a
+                            elementum ex congue sit amet. Praesent vestibulum, urna ac porttitor tempor, diam nunc sodales
+                            elit, at mattis dui augue nec nibh. Nullam euismod at urna sit amet consequat. Morbi sodales
+                            tincidun</p>
+                    </div>
+                    <div class="slide-card">
+                        <img src="img/roadtrip.jpg" />
+                        <h2>Road trip</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce facilisis egestas lacus, a
+                            elementum ex congue sit amet. Praesent vestibulum, urna ac porttitor tempor, diam nunc sodales
+                            elit, at mattis dui augue nec nibh. Nullam euismod at urna sit amet consequat. Morbi sodales
+                            tincidun</p>
+                    </div>
+                </div>
+                <div class="nav">
+                    <label for="img-1" class="prev">&#x2039;</label>
+                    <label for="img-3" class="next">&#x203a;</label>
+                </div>
+            </li>
+    
+            <input type="radio" name="radio-btn" id="img-3" />
+            <li class="slide-container">
+                <div class="slide">
+                    <div class="slide-card">
+                        <img src="img/wildlife.jpeg" />
+                        <h2>Wildlife</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce facilisis egestas lacus, a
+                            elementum ex congue sit amet. Praesent vestibulum, urna ac porttitor tempor, diam nunc sodales
+                            elit, at mattis dui augue nec nibh. Nullam euismod at urna sit amet consequat. Morbi sodales
+                            tincidun</p>
+                    </div>
+                    <div class="slide-card">
+                        <img src="img/roadtrip.jpg" />
+                        <h2>Road trip</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce facilisis egestas lacus, a
+                            elementum ex congue sit amet. Praesent vestibulum, urna ac porttitor tempor, diam nunc sodales
+                            elit, at mattis dui augue nec nibh. Nullam euismod at urna sit amet consequat. Morbi sodales
+                            tincidun</p>
+                    </div>
+                    <div class="slide-card">
+                        <img src="img/parties.jpg" />
+                        <h2>Parties</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce facilisis egestas lacus, a
+                            elementum ex congue sit amet. Praesent vestibulum, urna ac porttitor tempor, diam nunc sodales
+                            elit, at mattis dui augue nec nibh. Nullam euismod at urna sit amet consequat. Morbi sodales
+                            tincidun</p>
+                    </div>
+                </div>
+                </div>
+                <div class="nav">
+                    <label for="img-2" class="prev">&#x2039;</label>
+                    <label for="img-4" class="next">&#x203a;</label>
+                </div>
+            </li>
+    
+            <input type="radio" name="radio-btn" id="img-4" />
+            <li class="slide-container">
+                <div class="slide">
+                    <div class="slide-card">
+                        <img src="img/roadtrip.jpg" />
+                        <h2>Road trip</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce facilisis egestas lacus, a
+                            elementum ex congue sit amet. Praesent vestibulum, urna ac porttitor tempor, diam nunc sodales
+                            elit, at mattis dui augue nec nibh. Nullam euismod at urna sit amet consequat. Morbi sodales
+                            tincidun</p>
+                    </div>
+                    <div class="slide-card">
+                        <img src="img/parties.jpg" />
+                        <h2>Parties</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce facilisis egestas lacus, a
+                            elementum ex congue sit amet. Praesent vestibulum, urna ac porttitor tempor, diam nunc sodales
+                            elit, at mattis dui augue nec nibh. Nullam euismod at urna sit amet consequat. Morbi sodales
+                            tincidun</p>
+                    </div>
+                    <div class="slide-card">
+                        <img src="img/sport.jpeg" />
+                        <h2>Sports</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce facilisis egestas lacus, a
+                            elementum ex congue sit amet. Praesent vestibulum, urna ac porttitor tempor, diam nunc sodales
+                            elit, at mattis dui augue nec nibh. Nullam euismod at urna sit amet consequat. Morbi sodales
+                            tincidun</p>
+                    </div>
+                </div>
+                </div>
+                <div class="nav">
+                    <label for="img-3" class="prev">&#x2039;</label>
+                    <label for="img-5" class="next">&#x203a;</label>
+                </div>
+            </li>
+    
+            <input type="radio" name="radio-btn" id="img-5" />
+            <li class="slide-container">
+                <div class="slide">
+                    <div class="slide-card">
+                            <img src="img/parties.jpg" />
+                        <h2>Parties</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce facilisis egestas lacus, a
+                            elementum ex congue sit amet. Praesent vestibulum, urna ac porttitor tempor, diam nunc sodales
+                            elit, at mattis dui augue nec nibh. Nullam euismod at urna sit amet consequat. Morbi sodales
+                            tincidun</p>
+                    </div>
+                    <div class="slide-card">
+                        <img src="img/sport.jpeg" />
+                        <h2>Sports</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce facilisis egestas lacus, a
+                            elementum ex congue sit amet. Praesent vestibulum, urna ac porttitor tempor, diam nunc sodales
+                            elit, at mattis dui augue nec nibh. Nullam euismod at urna sit amet consequat. Morbi sodales
+                            tincidun</p>
+                    </div>
+                    <div class="slide-card">
+                        <img src="img/cities.jpeg" />
+                        <h2>Cities</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce facilisis egestas lacus, a
+                            elementum ex congue sit amet. Praesent vestibulum, urna ac porttitor tempor, diam nunc sodales
+                            elit, at mattis dui augue nec nibh. Nullam euismod at urna sit amet consequat. Morbi sodales
+                            tincidun</p>
+                    </div>
+                </div>
+                </div>
+                <div class="nav">
+                    <label for="img-4" class="prev">&#x2039;</label>
+                    <label for="img-6" class="next">&#x203a;</label>
+                </div>
+            </li>
+    
+            <input type="radio" name="radio-btn" id="img-6" />
+            <li class="slide-container">
+                <div class="slide">
+                    <div class="slide-card">
+                            <img src="img/sport.jpeg" />
+                        <h2>Sports</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce facilisis egestas lacus, a
+                            elementum ex congue sit amet. Praesent vestibulum, urna ac porttitor tempor, diam nunc sodales
+                            elit, at mattis dui augue nec nibh. Nullam euismod at urna sit amet consequat. Morbi sodales
+                            tincidun</p>
+                    </div>
+                    <div class="slide-card">
+                            <img src="img/cities.jpeg" />
+                        <h2>Cities</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce facilisis egestas lacus, a
+                            elementum ex congue sit amet. Praesent vestibulum, urna ac porttitor tempor, diam nunc sodales
+                            elit, at mattis dui augue nec nibh. Nullam euismod at urna sit amet consequat. Morbi sodales
+                            tincidun</p>
+                    </div>
+                    <div class="slide-card">
+                        <img src="img/landscape.jpeg" />
+                        <h2>Landscape</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce facilisis egestas lacus, a
+                            elementum ex congue sit amet. Praesent vestibulum, urna ac porttitor tempor, diam nunc sodales
+                            elit, at mattis dui augue nec nibh. Nullam euismod at urna sit amet consequat. Morbi sodales
+                            tincidun</p>
+                    </div>
+                </div>
+                </div>
+                <div class="nav">
+                    <label for="img-5" class="prev">&#x2039;</label>
+                    <label for="img-1" class="next">&#x203a;</label>
+                </div>
+            </li>
+        </ul>
     </section>
 
     <section id="mosaic">
+        <img class ="petit" src="img/Quokka.jpeg" alt="quokka">
+        <img class ="petit" src="img/parties.jpg" alt="parties">
+        <img class ="petit" src="img/sky.jpeg" alt="sky">        
+        <img class ="petit" src="img/ocean.jpg" alt="ocean">
+        <img class ="petit" src="img/rain.jpeg" alt="rain">
+        <img class ="petit" src="img/truck.jpeg" alt="truck">        
+        <img class ="petit" src="img/sydney.jpg" alt="roadtrip">
+        <img class ="petit" src="img/bird.jpg" alt="bird">
+        <img class ="petit" src="img/beach.jpeg" alt="beach">
+        <img class ="petit" src="img/camping.jpeg" alt="camping">
     </section>
 
     <section>
@@ -77,13 +314,27 @@
     </section>
 
     <section id="footer">
-        <a href="">Contact us</a>
-        <a href="">Contact us</a>
-        <a href="">Contact us</a>
-        <a href="">Contact us</a>
+        <a href="">About us</a>
+        <a href="">Before leaving</a>
+        <a href="">Informations</a>
+        <div class ="socialbuttons">
+            <a><img class="Navlogo facebook hide" src="img/facebook.png" alt="facebook-logo" width=25px></a>
+            <a><img class="Navlogo hide" src="img/twitter.png" alt="Twitter-logo" width=25px></a></li>
+            <a><img class="Navlogo hide" src="img/instagram.png" alt="Instagram-logo" width=25px></a></li>
+            <a><img class="Navlogo hide" src="img/youtube.png" alt="Youtube-logo" width=25px></a></li>
+        </div>
+        
     </section>
 
-    
+
+
+
+
+
+
+
+
+
 
 
 </body>
