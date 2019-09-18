@@ -20,6 +20,7 @@ nav {
 {
   text-decoration: none;
   color: rgb(0, 92, 0);
+  padding: 1.5px;
   
   transition: color 0.3s ease;
 }
@@ -167,6 +168,7 @@ input {
 }
 
 .listLogo img {
+  margin-top: 15px;
   padding: 5px 5px 2px 5px;
   height: 15px;
   
@@ -418,17 +420,20 @@ img.grand {
 
 
 
-div.socialbuttons {
-  display: flex;
-  flex-direction: flex-end;
-  justify-content: space-between;
-  align-items: center;
+  div.socialbuttons {
+    display: flex;
+    flex-direction: flex-end;
+    justify-content: space-between;
+    align-items: center;
  
-}
-div.socialbuttons a {
-  padding: 0 0 0 1em;       
-}
+  }
+  div.socialbuttons a {
+    padding: 0 0 0 1em;
+    
+       
+  }
   
+
+
+
 }
-
-
