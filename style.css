@@ -288,9 +288,6 @@ div.posts {
 
 /*page_article*/
 
-.page-article-section-bandeau-{
-
-}
 
 .page-article-bandeau{
     display:flex;
@@ -389,8 +386,6 @@ img.petit {
   margin: 0;
 }
 
-/* Footer */
-
 #contenu-2-img-2{
   -webkit-animation: fadeinout2 30s linear forwards;
   animation: fadeinout2 30s linear forwards;
@@ -462,6 +457,13 @@ img.petit {
     padding: 1em;
   }
 
+#footer a:hover {
+  font-size: 1.22em;
+  color: rgb(85, 87, 85);
+  font-style: bold;
+
+}
+
 #footer a {
     text-decoration: none;
     font-size: 1.2em;
@@ -483,7 +485,7 @@ img.petit {
   .nav-cat {
     font-size: 1.2em;
     text-decoration: none;
-    color: rgb(0, 92, 0);
+    color: rgb(85, 87, 85);
     padding: 0.5px;
     
     transition: color 0.3s ease;
@@ -491,7 +493,9 @@ img.petit {
   
   .nav-cat:hover {
     
-    color: rgb(25, 150, 25);
+    color: rgb(46, 45, 45);
+    font-style: bold;
+    
   }
   
 
@@ -663,9 +667,7 @@ img.petit {
         transition: all .7s ease-in-out;
     }
 
-    .nav{
-        display:block;
-    }
+    
 
     .nav label {
         width: 8%;
@@ -744,116 +746,107 @@ img.petit {
       font-size : 19px;
     }
 
+    .btinv {
+      visibility: hidden;
+    }
+
     .logos {
       visibility: hidden;
 
     }
 
-<<<<<<< HEAD
     nav {
       height: 50px;
       width: 100%;
       background-color: #FFAD33;
     }
-=======
-.nav-cat
-{
-  text-decoration: none;
-  color: rgb(251, 253, 251);
-  padding: 1.5px;
-  margin-top:20px;
-  font-size: 1.2em;
-  
-}
->>>>>>> fd4e065327dc8368f15e9d50e62cd585ef16be32
 
     .nav-cat
     {
       text-decoration: none;
       color: rgb(251, 253, 251);
       padding: 1.5px;
-      margin-top:20px;
+      font-size: 1em;
+      margin-top: -10px;
       
-    }
-
-<<<<<<< HEAD
+    }   
     .nav-cat:hover
     {
-      font-size: 16.2px;
-      color: rgb(39, 44, 39);
+      font-size: 1.02em;
+      color: rgb(85, 87, 85);
       font-style: bold;
     }
 
-=======
-iframe {
-  border-radius: 10px;
+
+  iframe {
+    border-radius: 10px;
+    }
+
+  div.youtubepadding  {
+    padding: 1em 2em 1em 2em;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;  
   }
 
-div.youtubepadding  {
-  padding: 1em 2em 1em 2em;
-  background-color: whitesmoke;
-  border-radius: 10px;
-  display: flex;
-  flex-direction: row;  
-}
+  div.youtubepadding p {
+    text-align: center;
+    font-size: 1.5em;
+    margin: 1em;
+    font-weight: 800;
+    align-self: center;
+  }
+  /* LASTPOST */
 
-div.youtubepadding p {
-  text-align: center;
-  font-size: 1.5em;
-  margin: 1em;
-  font-weight: 800;
-  align-self: center;
-}
-/* LASTPOST */
+  section#lastpost {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    }
+    
+  div.posts {
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    margin: .5em 1em;
+    height: 25em;  
+    }
 
-section#lastpost {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-   }
-  
-div.posts {
-  background-color: whitesmoke;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  border-radius: 10px;
-  margin: .5em 1em;
-  height: 25em;  
+  section#lastpost img {
+    width: 70%;
+    display: flex;
+    margin: 1em;
+    border-radius: 10px;
   }
 
-section#lastpost img {
-  width: 70%;
-  display: flex;
-  margin: 1em;
-  border-radius: 10px;
-}
+  section#lastpost h2 {
+    padding: .5em 1em .5em 1em;
+    background-color: darkgrey;
+    color: white;
+    font-size: 1em;
+    border-radius: 10px;  
+  }
 
-section#lastpost h2 {
-  padding: .5em 1em .5em 1em;
-  background-color: darkgrey;
-  color: white;
-  font-size: 1em;
-  border-radius: 10px;  
-}
+  section#lastpost p {
+    margin: 1em 1em .5em 1em;
+    text-align: justify;
+    width: 90%  
+  }
 
-section#lastpost p {
-  margin: 1em 1em .5em 1em;
-  text-align: justify;
-  width: 90%  
-}
-
-section#lastpost a {
-  text-align: center;
-  text-decoration: none;
-  color: grey;
-}
+  section#lastpost a {
+    text-align: center;
+    text-decoration: none;
+    color: grey;
+  }
 
 
-h3 {
-  margin: .5em;
-}
+  h3 {
+    margin: .5em;
+  }
 
->>>>>>> fd4e065327dc8368f15e9d50e62cd585ef16be32
+
 
 }
