@@ -156,6 +156,9 @@ section#lastpost h2 {
 
 section#lastpost a {
   text-align: center;
+  text-decoration: none;
+  color: grey;
+  
 }
 
 
@@ -851,7 +854,7 @@ section#lastpost img.photoart {
 
 section#lastpost h2 {
   padding: .5em 1em .5em 1em;
-  background-color: darkgrey;
+  background-color: grey;
   color: white;
   font-size: .8em;
   border-radius: 10px;  
