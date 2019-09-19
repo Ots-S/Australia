@@ -130,13 +130,15 @@ h1 {
 
 /* LASTPOST */
 
+
+
 section#lastpost {
   display: flex;
   flex-direction: column;
   align-items: center;
-   }
+  }
 
-section#lastpost img {
+section#lastpost img.photoart {
   width: 60%;
   display: flex;
   margin: 1em;
@@ -152,12 +154,11 @@ section#lastpost h2 {
   
 }
 
-section#lastpost p {
+.post {
   margin: 1em 1em .5em 1em;
   text-align: justify;
-  width: 70%
-  
 }
+
 
 section#lastpost a {
   text-align: center;
@@ -167,6 +168,7 @@ section#lastpost a {
 h3 {
   text-align: center;
   margin: .5em;
+  
 }
 
 div.posts {
@@ -179,6 +181,24 @@ div.posts {
   margin: .5em 1em;
   }
 
+  div.date {
+    display: flex;
+    justify-content: center;
+  }
+
+  p.date {
+    font-size: .9em;
+    width: 100%;
+    color: grey;
+  }
+
+.logodate {
+    width: 5%;
+    float: left;
+    margin-right : 1em;
+   
+    text-align: center;
+}
 
 
 
@@ -827,7 +847,7 @@ div.posts {
   height: 25em;  
   }
 
-section#lastpost img {
+section#lastpost img.photoart {
   width: 70%;
   display: flex;
   margin: 1em;
@@ -838,14 +858,19 @@ section#lastpost h2 {
   padding: .5em 1em .5em 1em;
   background-color: darkgrey;
   color: white;
-  font-size: 1em;
+  font-size: .8em;
   border-radius: 10px;  
 }
 
-section#lastpost p {
+section#lastpost p.postdescription {
   margin: 1em 1em .5em 1em;
   text-align: justify;
-  width: 90%  
+  width: 90%;
+}
+
+p.date {
+  font-size: .8em;
+  text-align: center;
 }
 
 section#lastpost a {
