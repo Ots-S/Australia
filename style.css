@@ -37,6 +37,10 @@
   
 }
 
+.travel {
+  color: #FFAD33;
+}
+
 /*nav {
     display: flex;
     background-color: #FFAD33;
@@ -72,6 +76,10 @@ h1 {
 
 
 /* Articles */
+
+.bold {
+  font-weight: bold;
+}
 
 #articles {
     display:block;
@@ -120,6 +128,56 @@ h1 {
     transition: all .3s ease-in-out;
 }
 
+/* LASTPOST */
+
+section#lastpost {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+   }
+
+section#lastpost img {
+  width: 60%;
+  display: flex;
+  margin: 1em;
+  border-radius: 10px;
+}
+
+section#lastpost h2 {
+  padding: .5em 1em .5em 1em;
+  background-color: grey;
+  color: white;
+  font-size: 1em;
+  border-radius: 10px;
+  
+}
+
+section#lastpost p {
+  margin: 1em 1em .5em 1em;
+  text-align: justify;
+  width: 70%
+  
+}
+
+section#lastpost a {
+  text-align: center;
+}
+
+
+h3 {
+  text-align: center;
+  margin: .5em;
+}
+
+div.posts {
+  padding: 1em;
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  margin: .5em 1em;
+  }
 
 
 /* Formulaire */
@@ -313,7 +371,7 @@ section#separator {
 
   display: flex;
   justify-content: center;
-  margin-bottom: 3em;
+  margin: 2em;
 }
 
 section#separator img {
@@ -582,7 +640,7 @@ img.petit {
 @media only screen and (min-width: 1025px){
 
     #articles{
-        height:50vw;
+        height:45vw;
     }
     
     .slides {
@@ -752,6 +810,55 @@ div.youtubepadding p {
   margin: 1em;
   font-weight: 800;
   align-self: center;
+}
+/* LASTPOST */
+
+section#lastpost {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+   }
+  
+div.posts {
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  margin: .5em 1em;
+  height: 25em;  
+  }
+
+section#lastpost img {
+  width: 70%;
+  display: flex;
+  margin: 1em;
+  border-radius: 10px;
+}
+
+section#lastpost h2 {
+  padding: .5em 1em .5em 1em;
+  background-color: darkgrey;
+  color: white;
+  font-size: 1em;
+  border-radius: 10px;  
+}
+
+section#lastpost p {
+  margin: 1em 1em .5em 1em;
+  text-align: justify;
+  width: 90%  
+}
+
+section#lastpost a {
+  text-align: center;
+  text-decoration: none;
+  color: grey;
+}
+
+
+h3 {
+  margin: .5em;
 }
 
 
