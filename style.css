@@ -391,6 +391,10 @@ div.posts {
 
 .page-article-liens-desktop :first-child{
   border-left:1px solid #808080;
+  background:#FFFFFF;
+  color:#808080;
+  border-top:1px solid #808080;
+  border-bottom:1px solid #808080;
 }
 
 .page-article-liens-desktop :last-child{
