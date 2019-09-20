@@ -23,10 +23,10 @@
                 <span></span>
 
                 <ul id="menu">
-                    <a class="nav-cat" href="#"><li>Activities</li></a>
-                    <a class="nav-cat" href="#"><li>Advices</li></a>
-                    <a class="nav-cat" href="#"><li>Tours Ideas</li></a>
-                    <a class="nav-cat" href="#"><li>Pictures</li></a>        
+                    <a class="nav-cat" id="cat-1" href="index.html"><li>Home</li></a>
+                    <a class="nav-cat" id="cat-2" href="#"><li>Activities</li></a>
+                    <a class="nav-cat" id="cat-3" href="#"><li>Tours Ideas</li></a>
+                    <a class="nav-cat" id="cat-4" href="#"><li>Pictures</li></a>        
                 </ul>
             </div>
             <div class="logos">
@@ -40,7 +40,7 @@
         </nav>
 
         <section id="banniere">
-            <img class="logo" src="img/australian-kangaroo.png">    
+            <img class="logo" id="kango-logo" src="img/australian-kangaroo.png">    
             <h1>Aus<span class="travel">travel</span></h1>
         </section>
     </header>
@@ -92,8 +92,9 @@
 
 
     <section id="footer">
-        <a href="">About us</a>
+        <a href="aboutus.html">About us</a>
         <a href="">Before leaving</a>
+        <a href="form.html">Contact us</a>
         <a href="">Informations</a>
         <div class ="socialbuttons">
             <a href=""><img class="Navlogo facebook hide" src="img/facebook.png" alt="facebook-logo" width=25px></a>
@@ -103,5 +104,46 @@
         </div>
         
     </section>
+
+    <script type="text/javascript">
+    var cat = document.getElementById("cat-1");
+cat.addEventListener("mouseover", function( event ) {
+    var logo = document.getElementById("kango-logo");
+    logo.classList.add("animation");
+}, false);
+cat.addEventListener("mouseout", function( event ) {
+    var logo = document.getElementById("kango-logo");
+    logo.classList.remove("animation");
+}, false);
+var cat = document.getElementById("cat-2");
+cat.addEventListener("mouseover", function( event ) {
+    var logo = document.getElementById("kango-logo");
+    logo.classList.add("animation");
+}, false);
+cat.addEventListener("mouseout", function( event ) {
+    var logo = document.getElementById("kango-logo");
+    logo.classList.remove("animation");
+}, false);
+var cat = document.getElementById("cat-3");
+cat.addEventListener("mouseover", function( event ) {
+    var logo = document.getElementById("kango-logo");
+    logo.classList.add("animation");
+}, false);
+cat.addEventListener("mouseout", function( event ) {
+    var logo = document.getElementById("kango-logo");
+    logo.classList.remove("animation");
+}, false);
+var cat = document.getElementById("cat-4");
+cat.addEventListener("mouseover", function( event ) {
+    var logo = document.getElementById("kango-logo");
+    logo.classList.add("animation");
+}, false);
+cat.addEventListener("mouseout", function( event ) {
+    var logo = document.getElementById("kango-logo");
+    logo.classList.remove("animation");
+}, false);
+
+
+    </script>
 </body>
 </html>

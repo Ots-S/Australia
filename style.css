@@ -848,6 +848,9 @@ filter: grayscale(1);
     margin:5vw;
   }
 
+  .nav-slide label {
+    display:none;
+  }
 }
 /* MEDIA QUERIES */
 
