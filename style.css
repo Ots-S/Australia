@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Arial', cursive;
+    font-family: Oswald, cursive;
     
 }
 
@@ -79,7 +79,7 @@ h1 {
 
 h2.description {
   text-align: center;
-  font-family: Chilanka, sans-serif;
+  font-family: Oswald, sans-serif;
   margin: 1em;
   font-size: 2em;
 }    
@@ -440,7 +440,7 @@ section#separator {
 
   display: flex;
   justify-content: center;
-  margin: 2em;
+  margin: 3em;
 }
 
 section#separator img {
@@ -1131,7 +1131,8 @@ div#containerAbout {
 div#containerAbout p {
   margin-left: 1em;
   margin-right: 1em;
-  font-size: 1em;
+  font-size: 1.5em;
+  line-height: 2em;
 }
 
 .Laurent {
