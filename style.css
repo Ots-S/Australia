@@ -67,6 +67,12 @@ h1 {
     margin-bottom: 3em;
     }
 
+h2.description {
+  text-align: center;
+  font-family: Chilanka, sans-serif;
+  margin: 1em;
+  font-size: 2em;
+}    
 
 
 /* Articles */
@@ -144,8 +150,7 @@ section#lastpost h2 {
   background-color: grey;
   color: white;
   font-size: 1em;
-  border-radius: 10px;
-  
+  border-radius: 10px;  
 }
 
 .post {
@@ -157,14 +162,14 @@ section#lastpost h2 {
 section#lastpost a {
   text-align: center;
   text-decoration: none;
-  color: grey;
-  
+  color: grey;  
 }
 
 
 h3 {
   text-align: center;
   margin: .5em;
+  font-family: Chilanka, sans-serif;
   
 }
 
@@ -193,7 +198,6 @@ div.posts {
     width: 5%;
     float: left;
     margin-right : 1em;
-   
     text-align: center;
 }
 
@@ -434,7 +438,10 @@ section#separator img {
 
 /* YOUTUBE */
 
-
+section#youtube p {
+  line-height: 2em;
+  font-family: Chilanka, sans-serif;
+}
 
 
 /* MOSAIC */
@@ -554,6 +561,80 @@ img.petit {
 
 .socialbuttons {
   display: none;
+}
+
+
+/* ABOUT US */
+
+div#containerAbout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+div#containerAbout p {
+  margin: 1em;
+  font-size: 1em;
+}
+
+.Laurent {
+padding: 1em;
+background-color: whitesmoke;
+margin: 2em;
+border-radius: 10px;
+width: 70%;
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content: center;
+}
+
+
+.Coralie {
+padding: 1em;
+background-color: whitesmoke;
+margin: 2em;
+border-radius: 10px;
+display: flex;
+justify-content: flex-start;
+flex-direction: row-reverse;
+width: 70%;
+align-items: center;
+flex-wrap: wrap;
+justify-content: center;
+}
+
+.Atef {
+padding: 1em;
+background-color: whitesmoke;
+margin: 2em;
+border-radius: 10px;
+width: 70%;
+display: flex;
+flex-wrap: nowrap;
+align-items: center;
+flex-wrap: wrap;
+justify-content: center;
+}
+
+.Sebastien {
+padding: 1em;
+background-color: whitesmoke;
+margin: 2em;
+border-radius: 10px;
+display: flex;
+justify-content: flex-start;
+flex-direction: row-reverse;
+width: 70%;
+align-items: center;
+flex-wrap: wrap;
+justify-content: center;
+}
+
+img.portrait {
+width: 80%;
+border-radius: 20%;
+filter: grayscale(1);
 }
 
 @media only screen and (max-width: 1024px){
@@ -994,7 +1075,100 @@ p.date {
 h3 {
     margin: .5em;
   }
+/* Footer */
+#footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #FFAD33;
+  padding: 1em;
+}
+
+#footer a:hover {
+font-size: 1.22em;
+color: rgb(85, 87, 85);
+font-style: bold;
+
+}
+
+#footer a {
+  text-decoration: none;
+  font-size: 1.2em;
+  color: white;
+}
+
+.socialbuttons {
+display: none;
+}
+
+/* ABOUT US DESKTOP */
 
 
+div#containerAbout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+div#containerAbout p {
+  margin-left: 1em;
+  margin-right: 1em;
+  font-size: 1em;
+}
+
+.Laurent {
+padding: 1em;
+background-color: whitesmoke;
+margin: 2em;
+border-radius: 10px;
+width: 70%;
+display: flex;
+flex-wrap: nowrap;
+align-items: center;
+}
+
+
+.Coralie {
+padding: 1em;
+background-color: whitesmoke;
+margin: 2em;
+border-radius: 10px;
+display: flex;
+justify-content: flex-start;
+flex-direction: row-reverse;
+flex-wrap: nowrap;
+width: 70%;
+align-items: center;
+}
+
+.Atef {
+padding: 1em;
+background-color: whitesmoke;
+margin: 2em;
+border-radius: 10px;
+width: 70%;
+display: flex;
+flex-wrap: nowrap;
+align-items: center;
+}
+
+.Sebastien {
+padding: 1em;
+background-color: whitesmoke;
+margin: 2em;
+border-radius: 10px;
+display: flex;
+justify-content: flex-start;
+flex-direction: row-reverse;
+width: 70%;
+align-items: center;
+flex-wrap: nowrap;
+}
+
+img.portrait {
+width: 40%;
+border-radius: 20%;
+filter: grayscale(1);
+}
 
 }
