@@ -840,7 +840,7 @@ filter: grayscale(1);
   }
 
   .page-article-titre-mobile-bouton{
-    background : #5C5959;
+    background : rgb(128, 128, 128);
     color: #FFFFFF;
     border-radius:10px;
     border:1px #5C5959 solid;
