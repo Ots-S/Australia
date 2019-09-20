@@ -4,6 +4,8 @@
     font-family: Oswald, cursive;
     
 }
+
+
 body {
   background-image: url(img/carte2.png);
   background-repeat: repeat;
@@ -46,12 +48,12 @@ body {
   color: #FFAD33;
 }
 
-/*nav {
+/* nav {
     display: flex;
     background-color: #FFAD33;
     padding: 1rem;
     justify-content: center;
-}*/
+} */
 
 
 /* Banniere */
@@ -1009,7 +1011,7 @@ filter: grayscale(1);
     }
 
     nav {
-      height: 50px;
+      height: 70px;
       width: 100%;
       background-color: #FFAD33;
     }
