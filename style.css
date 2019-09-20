@@ -444,8 +444,7 @@ section#separator {
 }
 
 section#separator img {
-    width: 15em;
-    
+    width: 45vw;  
 }
 
 /* YOUTUBE */
@@ -1187,6 +1186,10 @@ img.portrait {
 width: 40%;
 border-radius: 20%;
 filter: grayscale(1);
+}
+
+section#separator img {
+  width: 30vw;  
 }
 
 }
