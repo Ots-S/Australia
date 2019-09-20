@@ -17,32 +17,44 @@
     <header>
         <nav>
             <div id="menuToggle">
-            
+
                 <input class="btinv" type="checkbox" />
-            
+
                 <span></span>
                 <span></span>
                 <span></span>
 
                 <ul id="menu">
-                    <a class="nav-cat" id="cat-1" href="index.html"><li>Home</li></a>
-                    <a class="nav-cat" id="cat-2" href="#"><li>Activities</li></a>
-                    <a class="nav-cat" id="cat-3" href="#"><li>Tours Ideas</li></a>
-                    <a class="nav-cat" id="cat-4" href="#"><li>Pictures</li></a>        
+                    <a class="nav-cat" id="cat-1" href="index.html">
+                        <li>Home</li>
+                    </a>
+                    <a class="nav-cat" id="cat-2" href="#">
+                        <li>Activities</li>
+                    </a>
+                    <a class="nav-cat" id="cat-3" href="#">
+                        <li>Tours Ideas</li>
+                    </a>
+                    <a class="nav-cat" id="cat-4" href="#">
+                        <li>Pictures</li>
+                    </a>
                 </ul>
             </div>
             <div class="logos">
                 <ul class="listLogo">
-                    <li class= "imageLogo"><a href=""><img class="Navlogo" src="img/facebook.png" alt="facebook-logo" width=15px></a></li>
-                    <li class= "imageLogo"><a href=""><img class="Navlogo" src="img/twitter.png" alt="Twitter-logo" width=15px></a></li>
-                    <li class= "imageLogo"><a href=""><img class="Navlogo" src="img/instagram.png" alt="Instagram-logo" width=15px></a></li>
-                    <li class= "imageLogo"><a href=""><img class="Navlogo" src="img/youtube.png" alt="Youtube-logo" width=15px></a></li>
+                    <li class="imageLogo"><a href=""><img class="Navlogo" src="img/facebook.png" alt="facebook-logo"
+                                width=15px></a></li>
+                    <li class="imageLogo"><a href=""><img class="Navlogo" src="img/twitter.png" alt="Twitter-logo"
+                                width=15px></a></li>
+                    <li class="imageLogo"><a href=""><img class="Navlogo" src="img/instagram.png" alt="Instagram-logo"
+                                width=15px></a></li>
+                    <li class="imageLogo"><a href=""><img class="Navlogo" src="img/youtube.png" alt="Youtube-logo"
+                                width=15px></a></li>
                 </ul>
             </div>
         </nav>
 
         <section id="banniere">
-            <img class="logo" id="kango-logo" src="img/australian-kangaroo.png">    
+            <img class="logo" id="kango-logo" src="img/australian-kangaroo.png">
             <h1>Aus<span class="travel">travel</span></h1>
         </section>
     </header>
@@ -66,12 +78,23 @@
     </div>
     <div class="page-article-contenu">
         <div class="page-article-contenu-1">
-            <p>Feel the wide open space of Australia's vast outback beneath your wheels on one of the world's greatest adventure drives as you cross the vast, semi-arid Nullarbor Plain.<br><br>
-               The Nullarbor stretches across the southern edge of Australia between the goldfields of Western Australia and the Eyre Peninsula in South Australia.<br><br>
-                You can connect to this journey from Adelaide or Perth and drive west to east or east to west along the Eyre Highway.<br>
-                While this is a sealed road, it goes through remote areas and the trip requires thorough preparation. You should carry extra petrol and plenty of water and food. You'll need a 4WD vehicle to venture off the highway.<br><br>
-                If you'd rather make the trek with a tour, check out the epic adventures offered by Xplore Eyre and Nullarbor Traveller.<br><br>
-                Nullarbor means "no trees" in Latin, but in reality, the Nullarbor is covered with bluebush and mulga scrub, and even wildflowers after rain. You'll see plenty of wildlife, including wild camels, kangaroos and emus (be careful at dusk), meet eccentric outback characters and even discover space junk that fell to earth. Go whale watching on a clifftop lookout, visit vast cattle stations, and play the world's longest golf course – an unbelievable 1,365 kilometres (848 miles) long, with a hole at each town or roadhouse along the way. 
+            <p>Feel the wide open space of Australia's vast outback beneath your wheels on one of the world's greatest
+                adventure drives as you cross the vast, semi-arid Nullarbor Plain.<br><br>
+                The Nullarbor stretches across the southern edge of Australia between the goldfields of Western
+                Australia and the Eyre Peninsula in South Australia.<br><br>
+                You can connect to this journey from Adelaide or Perth and drive west to east or east to west along the
+                Eyre Highway.<br>
+                While this is a sealed road, it goes through remote areas and the trip requires thorough preparation.
+                You should carry extra petrol and plenty of water and food. You'll need a 4WD vehicle to venture off the
+                highway.<br><br>
+                <!-- If you'd rather make the trek with a tour, check out the epic adventures offered by Xplore Eyre and
+                Nullarbor Traveller.<br><br> -->
+                <!-- Nullarbor means "no trees" in Latin, but in reality, the Nullarbor is covered with bluebush and mulga
+                scrub, and even wildflowers after rain. You'll see plenty of wildlife, including wild camels, kangaroos
+                and emus (be careful at dusk), meet eccentric outback characters and even discover space junk that fell
+                to earth. Go whale watching on a clifftop lookout, visit vast cattle stations, and play the world's
+                longest golf course – an unbelievable 1,365 kilometres (848 miles) long, with a hole at each town or
+                roadhouse along the way. -->
             </p>
         </div>
         <div class="page-article-titre-mobile">
@@ -93,54 +116,55 @@
         <a href="">Before leaving</a>
         <a href="form.html">Contact us</a>
         <a href="">Informations</a>
-        <div class ="socialbuttons">
+        <div class="socialbuttons">
             <a href=""><img class="Navlogo facebook hide" src="img/facebook.png" alt="facebook-logo" width=25px></a>
             <a href=""><img class="Navlogo hide" src="img/twitter.png" alt="Twitter-logo" width=25px></a></li>
             <a href=""><img class="Navlogo hide" src="img/instagram.png" alt="Instagram-logo" width=25px></a></li>
             <a href=""><img class="Navlogo hide" src="img/youtube.png" alt="Youtube-logo" width=25px></a></li>
         </div>
-        
+
     </section>
 
     <script type="text/javascript">
-    var cat = document.getElementById("cat-1");
-cat.addEventListener("mouseover", function( event ) {
-    var logo = document.getElementById("kango-logo");
-    logo.classList.add("animation");
-}, false);
-cat.addEventListener("mouseout", function( event ) {
-    var logo = document.getElementById("kango-logo");
-    logo.classList.remove("animation");
-}, false);
-var cat = document.getElementById("cat-2");
-cat.addEventListener("mouseover", function( event ) {
-    var logo = document.getElementById("kango-logo");
-    logo.classList.add("animation");
-}, false);
-cat.addEventListener("mouseout", function( event ) {
-    var logo = document.getElementById("kango-logo");
-    logo.classList.remove("animation");
-}, false);
-var cat = document.getElementById("cat-3");
-cat.addEventListener("mouseover", function( event ) {
-    var logo = document.getElementById("kango-logo");
-    logo.classList.add("animation");
-}, false);
-cat.addEventListener("mouseout", function( event ) {
-    var logo = document.getElementById("kango-logo");
-    logo.classList.remove("animation");
-}, false);
-var cat = document.getElementById("cat-4");
-cat.addEventListener("mouseover", function( event ) {
-    var logo = document.getElementById("kango-logo");
-    logo.classList.add("animation");
-}, false);
-cat.addEventListener("mouseout", function( event ) {
-    var logo = document.getElementById("kango-logo");
-    logo.classList.remove("animation");
-}, false);
+        var cat = document.getElementById("cat-1");
+        cat.addEventListener("mouseover", function (event) {
+            var logo = document.getElementById("kango-logo");
+            logo.classList.add("animation");
+        }, false);
+        cat.addEventListener("mouseout", function (event) {
+            var logo = document.getElementById("kango-logo");
+            logo.classList.remove("animation");
+        }, false);
+        var cat = document.getElementById("cat-2");
+        cat.addEventListener("mouseover", function (event) {
+            var logo = document.getElementById("kango-logo");
+            logo.classList.add("animation");
+        }, false);
+        cat.addEventListener("mouseout", function (event) {
+            var logo = document.getElementById("kango-logo");
+            logo.classList.remove("animation");
+        }, false);
+        var cat = document.getElementById("cat-3");
+        cat.addEventListener("mouseover", function (event) {
+            var logo = document.getElementById("kango-logo");
+            logo.classList.add("animation");
+        }, false);
+        cat.addEventListener("mouseout", function (event) {
+            var logo = document.getElementById("kango-logo");
+            logo.classList.remove("animation");
+        }, false);
+        var cat = document.getElementById("cat-4");
+        cat.addEventListener("mouseover", function (event) {
+            var logo = document.getElementById("kango-logo");
+            logo.classList.add("animation");
+        }, false);
+        cat.addEventListener("mouseout", function (event) {
+            var logo = document.getElementById("kango-logo");
+            logo.classList.remove("animation");
+        }, false);
 
 
     </script>
 </body>
+
 </html>
