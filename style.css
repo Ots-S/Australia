@@ -18,6 +18,11 @@
   margin-top: -45px;
   
 }
+.Navlogo:hover {
+  -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+}
+
 .listLogo {
  display: flex;
  justify-content: space-between;
@@ -52,6 +57,11 @@
 .logo {
   margin-top: 1em;
   width: 5em;
+}
+
+.logo:hover {
+  -webkit-transform: scale(1.3);
+    transform: scale(1.3);
 }
 
 h1 {
@@ -364,7 +374,8 @@ section#separator {
 }
 
 section#separator img {
-    width: 5em;
+    width: 15em;
+    
 }
 
 /* YOUTUBE */
@@ -486,8 +497,7 @@ img.petit {
     font-size: 1.2em;
     text-decoration: none;
     color: rgb(85, 87, 85);
-    padding: 0.5px;
-    
+    padding: 2px;
     transition: color 0.3s ease;
   }
   
@@ -770,13 +780,20 @@ img.petit {
       margin-top: -10px;
       
     }   
-    .nav-cat:hover
-    {
+    .nav-cat:hover {
       font-size: 1.02em;
       color: rgb(85, 87, 85);
       font-style: bold;
     }
 
+    a.nav-cat:hover img.logo {
+        visibility: hidden;
+
+    }
+    .animation {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+    }
 
   iframe {
     border-radius: 10px;
