@@ -677,6 +677,10 @@ filter: grayscale(1);
     transition: color 0.3s ease;
   }
   
+  #menu :first-child{
+    padding-top: 10px;
+  }
+
   .nav-cat:hover {
     
     color: rgb(46, 45, 45);
